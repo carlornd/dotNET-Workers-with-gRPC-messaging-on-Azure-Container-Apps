@@ -3,12 +3,12 @@ name: Build and deploy .NET application to Container App silo
 on:
   push:
     branches:
-    - deploy-1
+    - deploy2
 
 env:
   
   # alphanumeric string under 14 characters
-  RESOURCE_GROUP_NAME: CRgrpc
+  RESOURCE_GROUP_NAME: crgrpc
 
   # specify your preferred region
   REGION: eastus
